@@ -1,0 +1,92 @@
+body{
+    margin: 1vh;
+    background-color:blue;
+    border: 2px solid black;
+    text-align: center;
+}
+.wrapper{
+    background-color: #9BFF9A;
+    border: 2px solid black;
+    text-align: center;
+    margin: 1vh;
+}
+.container1{
+    background-color: #F0EFFF;
+    border: 2px solid black;
+    text-align: center;
+    margin: 1vh;
+}
+.header{
+    background-color: #FEEE99;
+    border: 2px solid black;
+    text-align: center;
+    margin: 1vh;
+}
+.navigation{
+    background-color: #EECCFF;
+    border: 2px solid black;
+    text-align: center;
+    margin: 1vh   
+}
+.container2{
+    background-color: rgb(232, 236, 0);
+    border: 2px solid black;
+    text-align: center;
+    margin: 1vh;
+    display: inline-block;
+}
+
+.content{
+    background-color: #F6EEEC;
+    border: 2px solid black;
+    /* text-align: center;  */
+    margin: 1vh; 
+    padding-top: 1.5vh;
+    float: left;
+}
+.float-right{
+    background-color: #F6EEEC;
+    border: 2px solid black;
+    /* text-align: center; */
+    padding-top: 1.5vh;
+    margin: 1vh; 
+    float: right;
+}
+.footer{
+    background-color: #EEFFED;
+    border: 2px solid black;
+    text-align: center;
+    margin: 1vh; 
+}
+h2{
+    border: 2px solid black;
+    display: inline-block;
+    background-color:#FEF102;
+    padding: 1vh 5vh 1vh 6vh;
+}
+#h2{
+    width: 34vh;
+}
+.contr{
+    display: block;
+}
+h1{
+    border: 2px solid black;
+    margin: 1vh 2vh 0vh 2vh;
+    background-color:#9BFF9A;
+    padding: 1vh 5vh 1vh 6vh;
+}
+
+.body{
+    background-color: lightblue;
+    border: 2px solid black;
+    text-align: center;
+    margin: 4vh;
+}
+
+.container1-back{
+   background-color: lightskyblue;
+   border: 2px solid black;
+   text-align: center;
+   margin: 1vh;
+}
