@@ -26,10 +26,10 @@ const handle_data = function (res) {
   const new_li_elem7 = document.createElement('h1');
 
 
-  new_li_elem1.innerText = `Temp: ${user_arr.main.temp} ℃`;
+  new_li_elem1.innerText = `Temp: ${parseInt(user_arr.main.temp) - 273} ℃`;
   new_li_elem2.innerText = `Country: ${user_arr.sys.country} `;
-  new_li_elem3.innerText = `Max⬆ ${user_arr.main.temp_max} ℃`;
-  new_li_elem4.innerText = `Min ⬇ ${user_arr.main.temp_min} ℃`;
+  new_li_elem3.innerText = `Max⬆ ${user_arr.main.temp_max)-273} ℃`;
+  new_li_elem4.innerText = `Min ⬇ ${user_arr.main.temp_min)-273} ℃`;
   new_li_elem5.innerText = `${user_arr.weather[0].main}`;
   new_li_elem6.innerText = `City: ${user_arr.name}`;
   new_li_elem7.innerText = `Wind Speed:${user_arr.wind.speed}`
